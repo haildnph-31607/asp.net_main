@@ -28,7 +28,9 @@ Dự án "Công Nghệ Shop" là một ứng dụng web bán đồ công nghệ 
    git clone https://github.com/haildnph-31607/asp.net_main.git
    cd asp.net_main
 2.Cài đặt các gói NuGet
-dotnet restore
+```bash
+   dotnet restore
 3.Chạy migration
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+```bash
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
